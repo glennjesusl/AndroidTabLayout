@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText 
+        android:id="@+id/srchartist"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   	 	android:hint="Search for Artist"
+   	 	android:gravity="left"/>
+        
+        
+    <ListView
+        android:id="@+id/lstdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"        
+        android:layout_weight="8.5" >
+    </ListView>
+
+</LinearLayout>
